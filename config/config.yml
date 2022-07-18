@@ -1,0 +1,14 @@
+database:
+  user: root
+  password: 123456!qwe
+  net: tcp
+  addr: 127.0.0.1:3306
+  dbname: oakapi
+  allowNativePasswords: true
+  params:
+    parseTime: true
+    charset: utf8mb4
+    loc: Asia/Tokyo
+
+server:
+  address: 8080
